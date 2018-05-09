@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" type="text/css" href="../static/bootstrap/css/bootstrap.min.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1"> <!--ajustar a tela do dispositivo-->
+        <script src="../static/jquery.js"></script>
+        <script src="../static/bootstrap/js/bootstrap.min.js"></script>
+        <link rel="stylesheet" href="../static/crud_listar_style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="../static/mdb-free/css/bootstrap.css">
+        <link rel="stylesheet" href="../static/mdb-free/css/bootstrap.min.css">
+        <link rel="stylesheet" href="../static/mdb-free/css/mdb.css">
+        <link rel="stylesheet" href="../static/mdb-free/css/mdb.min.css">
+        <link rel="stylesheet" href="../static/mdb-free/css/style.css">
+        <link rel="stylesheet" href="../static/global.css">
+        <link rel="stylesheet" href="../static/login_style.css">
+        <link rel="stylesheet" href="../static/footer.css">
+        <link rel="icon" href="../static/img/ibus.ico">
+        <title>Sistema de Controle de Mobilidade Urbana</title>
+    </head>
+    <body>
+        <div class="container-fluid">
+            <div class="row">
+                <!-- Conteúdo da esquerda -->
+                <div class="col-12 col-md-6" id="left-content">
+                    <div class="row align-items-center h-100 uea-light">
+                        <div class="col text-center">
+                            <h1 style="font-size: 50px;"> Sistema de Controle de Mobilidade Urbana</h1>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Conteúdo da direita (Login) -->
+                <div class="col" id="right-content">
+                    <div class="row align-items-center justify-content-center">
+                        <div class="col-11 col-sm-8 col-md-10 col-lg-8">
+                            <div class="card mt-3 mt-md-0">
+                                <div class="card-body">
+                                    <!--<h2 class="card-title">Acessar sistema</h2>-->
+                                    <form id="login-form" class="form" action="empresa_menu.html">
+                                        
+                                        <div class="md-form">
+                                            <i class="fa fa-user prefix black-text"></i>
+                                            <input type="text" id="razaosocial" class="form-control" placeholder="Login">
+                                        </div>
+
+                                        <div class="md-form">
+                                            <i class="fa fa-lock prefix black-text"></i>
+                                            <input type="password" id="senha" class="form-control" placeholder="********">
+                                        </div>
+
+                                        <div class="text-center">
+                                            <button class="btn btn-dark zelda-btn-round" type="submit">LOGIN</button>
+                                        </div>
+                                    </form>
+                                </div>
+                                <div class="card-footer">
+                                    <div class="text-center mb-1">Não tem uma conta? <a href="empresa_home_cadastrar.html">Cadastre-se!</a></div>
+        							<div class="text-center mb-1">
+        								<p><a href="recuperar_senha.html">Esqueci minha senha!</a></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

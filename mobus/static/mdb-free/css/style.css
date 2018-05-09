@@ -1,0 +1,22 @@
+/* YOUR CUSTOM STYLES */
+
+.card{
+	margin: 0 auto; /* Added */
+    float: none; /* Added */
+    margin-bottom: 10px; /* Added */
+ }
+
+.card-texto{
+ 	font-size: 15px;
+ 	font-style: normal;
+ }
+
+ .botao{
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 10px;
+ }
